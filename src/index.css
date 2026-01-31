@@ -30,6 +30,21 @@ body {
   min-height: 100vh;
 }
 
+body ::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+
+
+  background-image: url("/black hole.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  filter: blur(25px);
+  z-index: -1;
+}
+
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
