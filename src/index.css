@@ -41,7 +41,7 @@ body ::before {
   background-size: cover;
   background-repeat: no-repeat;
 
-  filter: blur(25px);
+  filter: blur(18px) saturate(120%);
   z-index: -1;
 }
 
@@ -92,7 +92,7 @@ input {
   color: rgba(240, 248, 255, 0.95);
   box-shadow: 0 0 18px rgba(80, 130, 255, 0.15);
   backdrop-filter: blur(8px);
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+  transition: border-color 0.1s ease, box-shadow 0.1s ease;
   
 }
 

@@ -43,7 +43,7 @@ function App() {
       <hr></hr>
       <div>
         <h3> The maths behind this calculator:</h3>
-        <h4> The formula used to calculate the Schwarzschild radius is: R<sub>s</sub> = (2GM)/(c<sup>2</sup>) </h4>
+        <h4> The formula used to calculate the Schwarzschild radius is: R<sub>s</sub> = 2×G×M/c<sup>2</sup> </h4>
         <h4> Where: </h4>
         <ul>
           <li> <strong>R<sub>s</sub></strong> = Schwarzschild radius </li>
