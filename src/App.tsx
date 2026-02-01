@@ -7,6 +7,15 @@ function App() {
 
   return (
     <div>
+      <div className="app-header">
+        <header>
+          <a href="https://github.com/kansar1/Schwarzschild-radius-calculator" target='_blank' rel='noopener noreferrer'>
+            <img src="Space logo.png" alt="Space Logo" className="app-logo"  />
+          </a>
+          <span className="header-title">Black Hole Calculator</span>
+        </header>
+      </div>
+      <div id="root-content">
       <h1> Schwarzschild Radius Calculator</h1>
       <div>
         <h3> What is a Schwarzschild Radius?</h3>
@@ -54,6 +63,7 @@ function App() {
         <h4> The result is then converted from metres to millimetres by multiplying it by 1000. </h4>
       </div>
     </div>
+  </div>
   )
 }
 
